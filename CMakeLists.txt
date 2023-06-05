@@ -158,8 +158,7 @@ if(CC_INSTALL_OPENCASCADE)
 
 			)
 			
-			set (DLLS ${LIB_WIN_ROOT}/bin/opencv_world470.dll
-						${LIB_WIN_ROOT}/bin/DRAWEXE.exe
+			set (DLLS 	${LIB_WIN_ROOT}/bin/DRAWEXE.exe
 						${LIB_WIN_ROOT}/bin/ExpToCasExe.exe
 						${LIB_WIN_ROOT}/bin/TInspectorEXE.exe
 						${LIB_WIN_ROOT}/bin/TKBin.dll
