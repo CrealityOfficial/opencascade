@@ -5,7 +5,7 @@ if(CC_INSTALL_OPENCASCADE)
 	set(DLLS)
 	
 					
-	set(LIB_WIN_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/install/x64/vc16/)
+	set(LIB_WIN_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/install/x64/)
 	if(CMAKE_BUILD_TYPE MATCHES "Release")
 		if(CC_BC_WIN)
 			
@@ -250,8 +250,7 @@ if(CC_INSTALL_OPENCASCADE)
 		endif()
 	else()
 		if(CC_BC_WIN)
-			list(APPEND LIBS ${LIB_WIN_ROOT}/lib/xxxx.lib)
-			list(APPEND DLLS ${LIB_WIN_ROOT}/bin/xxxx.dll)
+
 
 		elseif(CC_BC_LINUX)
 			set(LIBS ${CMAKE_CURRENT_SOURCE_DIR}/install/linux/lib/xxx.so
