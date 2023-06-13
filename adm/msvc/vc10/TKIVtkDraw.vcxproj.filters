@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{A97FBC50-1475-03C1-030C-3A6D1CD17684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{BC074E98-1894-00C5-0D9F-84297BBF5E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IVtkDraw">
+      <UniqueIdentifier>{D593220A-1249-093A-02CF-C822FC70FC70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IVtkDraw">
+      <UniqueIdentifier>{CD4F8DC2-1510-120F-1233-6A94462CB09A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IVtkDraw\IVtkDraw.cxx">
+      <Filter>Source files\IVtkDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkDraw\IVtkDraw_HighlightAndSelectionPipeline.cxx">
+      <Filter>Source files\IVtkDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkDraw\IVtkDraw_Interactor.cxx">
+      <Filter>Source files\IVtkDraw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IVtkDraw\IVtkDraw.hxx">
+      <Filter>Header files\IVtkDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkDraw\IVtkDraw_HighlightAndSelectionPipeline.hxx">
+      <Filter>Header files\IVtkDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkDraw\IVtkDraw_Interactor.hxx">
+      <Filter>Header files\IVtkDraw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKIVtkDraw.rc" />
+  </ItemGroup>
+</Project>

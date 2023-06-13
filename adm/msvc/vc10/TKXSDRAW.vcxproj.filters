@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{A5576030-0BED-0342-0602-0EF58819B6D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{31F785B7-16F0-097E-074D-C1919A3E4923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XSDRAW">
+      <UniqueIdentifier>{33CA3231-1149-0DA9-169A-D5B8C35538CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XSDRAWIGES">
+      <UniqueIdentifier>{03DBD035-068F-0848-138C-E504E8A54E11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XSDRAWSTEP">
+      <UniqueIdentifier>{A853734F-04EB-16FA-04DD-23DB4A11DAEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XSDRAWSTLVRML">
+      <UniqueIdentifier>{3CA34F90-1353-17D7-0140-AC1015540B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XSDRAW">
+      <UniqueIdentifier>{BCA268F4-0F12-15CC-158B-B716B333551D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XSDRAWIGES">
+      <UniqueIdentifier>{18EED15E-1879-0E33-14F7-57A9562E505A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XSDRAWSTEP">
+      <UniqueIdentifier>{9D789B85-00D9-0A52-024C-DEF7002A486D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XSDRAWSTLVRML">
+      <UniqueIdentifier>{F90E0AC0-0A99-1305-0929-C03212176CDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XSDRAW\XSDRAW.cxx">
+      <Filter>Source files\XSDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAW\XSDRAW_Functions.cxx">
+      <Filter>Source files\XSDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAW\XSDRAW_Vars.cxx">
+      <Filter>Source files\XSDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWIGES\XSDRAWIGES.cxx">
+      <Filter>Source files\XSDRAWIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWSTEP\XSDRAWSTEP.cxx">
+      <Filter>Source files\XSDRAWSTEP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML.cxx">
+      <Filter>Source files\XSDRAWSTLVRML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataSource.cxx">
+      <Filter>Source files\XSDRAWSTLVRML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataSource3D.cxx">
+      <Filter>Source files\XSDRAWSTLVRML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DrawableMesh.cxx">
+      <Filter>Source files\XSDRAWSTLVRML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\XSDRAW\XSDRAW.hxx">
+      <Filter>Header files\XSDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAW\XSDRAW_Functions.hxx">
+      <Filter>Header files\XSDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAW\XSDRAW_Vars.hxx">
+      <Filter>Header files\XSDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWIGES\XSDRAWIGES.hxx">
+      <Filter>Header files\XSDRAWIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTEP\XSDRAWSTEP.hxx">
+      <Filter>Header files\XSDRAWSTEP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_CoordsMap.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataSource.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DataSource3D.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_DrawableMesh.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XSDRAWSTLVRML\XSDRAWSTLVRML_ElemNodesMap.hxx">
+      <Filter>Header files\XSDRAWSTLVRML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXSDRAW.rc" />
+  </ItemGroup>
+</Project>

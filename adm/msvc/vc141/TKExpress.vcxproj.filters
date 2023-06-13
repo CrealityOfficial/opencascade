@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{7BBA4D00-106F-0C41-0D85-221EDD186C5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{72E589B3-1267-1074-0A9E-5F0D9A7604EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Express">
+      <UniqueIdentifier>{3E04E53B-0997-09E4-08F3-CE5340BBCDBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Express">
+      <UniqueIdentifier>{C0332805-085C-1891-0C17-4ABF02423826}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Express\Express.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Alias.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Boolean.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_ComplexType.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Entity.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Enum.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Field.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Integer.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Item.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Logical.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_NamedType.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_PredefinedType.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Real.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Reference.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Schema.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Select.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_String.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Express\Express_Type.cxx">
+      <Filter>Source files\Express</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Express\Express.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Alias.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Array.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Bag.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Boolean.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_ComplexType.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_DataMapOfAsciiStringItem.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Entity.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Enum.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Field.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_HSequenceOfEntity.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_HSequenceOfField.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_HSequenceOfItem.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Integer.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Item.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_List.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Logical.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_NamedType.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Number.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_PredefinedType.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Real.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Reference.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Schema.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Select.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_SequenceOfEntity.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_SequenceOfField.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_SequenceOfItem.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Set.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_String.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Express\Express_Type.hxx">
+      <Filter>Header files\Express</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKExpress.rc" />
+  </ItemGroup>
+</Project>

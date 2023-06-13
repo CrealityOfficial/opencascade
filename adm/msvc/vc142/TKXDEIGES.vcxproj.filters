@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{0C028B37-16F0-051C-1199-FF512D2A895C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A01248F1-0739-15AC-1286-FFCECA613B0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESCAFControl">
+      <UniqueIdentifier>{6C3BD25C-0E9A-02C7-0CA2-8578ACB582BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESCAFControl">
+      <UniqueIdentifier>{99DF8FD2-0BD2-112D-0281-B6106BEFF52B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IGESCAFControl\IGESCAFControl.cxx">
+      <Filter>Source files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.cxx">
+      <Filter>Source files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Provider.cxx">
+      <Filter>Source files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Reader.cxx">
+      <Filter>Source files\IGESCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Writer.cxx">
+      <Filter>Source files\IGESCAFControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IGESCAFControl\IGESCAFControl.hxx">
+      <Filter>Header files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESCAFControl\IGESCAFControl_ConfigurationNode.hxx">
+      <Filter>Header files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Provider.hxx">
+      <Filter>Header files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Reader.hxx">
+      <Filter>Header files\IGESCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESCAFControl\IGESCAFControl_Writer.hxx">
+      <Filter>Header files\IGESCAFControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXDEIGES.rc" />
+  </ItemGroup>
+</Project>

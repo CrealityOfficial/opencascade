@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{D7DE6654-170E-1881-191F-8C564E7648D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A6561455-0762-0F40-0E7E-048D45D6E570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CDM">
+      <UniqueIdentifier>{7153E323-0FAA-0303-0E5C-B975CBE4831C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PCDM">
+      <UniqueIdentifier>{5BB83D69-11F3-04CE-1739-C8732900A454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CDF">
+      <UniqueIdentifier>{24C5E2C3-1801-0FAC-0A55-56A3D71E9DDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UTL">
+      <UniqueIdentifier>{0E86813A-0DDB-08B7-07C6-A1BE50D58F21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LDOM">
+      <UniqueIdentifier>{A7E5E91E-0848-0A3C-1836-E2A502BF5468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CDM">
+      <UniqueIdentifier>{3E8FD225-0E42-0821-07E1-06DC957BE759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\PCDM">
+      <UniqueIdentifier>{9199D950-04C4-0EE5-18AD-31E88F9B3830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CDF">
+      <UniqueIdentifier>{85EFBAE3-0F84-1640-0DBE-A9466F4F6052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\UTL">
+      <UniqueIdentifier>{3CE8CA6D-14BD-171B-1177-D54274FE00E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LDOM">
+      <UniqueIdentifier>{EB96064C-1727-04DC-13D0-C2BEBB77EF12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\CDM\CDM_Application.cxx">
+      <Filter>Source files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDM\CDM_Document.cxx">
+      <Filter>Source files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDM\CDM_MetaData.cxx">
+      <Filter>Source files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDM\CDM_Reference.cxx">
+      <Filter>Source files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDM\CDM_ReferenceIterator.cxx">
+      <Filter>Source files\CDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_DOMHeaderParser.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Document.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReadWriter.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReadWriter_1.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Reader.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReaderFilter.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Reference.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReferenceIterator.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_RetrievalDriver.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_StorageDriver.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Writer.cxx">
+      <Filter>Source files\PCDM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_Application.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_Directory.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_DirectoryIterator.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_FWOSDriver.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_MetaDataDriver.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_MetaDataDriverFactory.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_Store.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CDF\CDF_StoreList.cxx">
+      <Filter>Source files\CDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\UTL\UTL.cxx">
+      <Filter>Source files\UTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOMBasicString.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOMParser.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOMString.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Attr.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicAttribute.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicElement.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicNode.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicText.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_CharReference.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_CharacterData.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Document.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Element.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_LDOMImplementation.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_MemManager.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Node.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_NodeList.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_OSStream.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_XmlReader.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_XmlWriter.cxx">
+      <Filter>Source files\LDOM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\CDM\CDM_Application.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_CanCloseStatus.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_DataMapIteratorOfMetaDataLookUpTable.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_Document.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_DocumentHasher.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_DocumentPointer.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListIteratorOfListOfDocument.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListIteratorOfListOfReferences.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListOfDocument.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListOfReferences.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_MapIteratorOfMapOfDocument.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_MapOfDocument.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_MetaData.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_MetaDataLookUpTable.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_NamesDirectory.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_Reference.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDM\CDM_ReferenceIterator.hxx">
+      <Filter>Header files\CDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_BaseDriverPointer.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_DOMHeaderParser.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Document.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_DriverError.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReadWriter.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReadWriter_1.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reader.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reader.lxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReaderFilter.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReaderStatus.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reference.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReferenceIterator.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_RetrievalDriver.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_SequenceOfDocument.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_SequenceOfReference.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_StorageDriver.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_StoreStatus.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_TypeOfFileDriver.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Writer.hxx">
+      <Filter>Header files\PCDM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_Application.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_Directory.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_DirectoryIterator.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_FWOSDriver.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_MetaDataDriver.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_MetaDataDriverFactory.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_Store.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_StoreList.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_StoreSetNameStatus.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_SubComponentStatus.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_TryStoreStatus.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CDF\CDF_TypeOfActivation.hxx">
+      <Filter>Header files\CDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\UTL\UTL.hxx">
+      <Filter>Header files\UTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOMBasicString.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOMParser.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOMString.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Attr.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicAttribute.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicElement.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicNode.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicText.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CDATASection.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CharReference.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CharacterData.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Comment.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_DeclareSequence.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Document.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_DocumentType.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Element.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_LDOMImplementation.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_MemManager.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Node.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_NodeList.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_OSStream.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Text.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_XmlReader.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_XmlWriter.hxx">
+      <Filter>Header files\LDOM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKCDF.rc" />
+  </ItemGroup>
+</Project>

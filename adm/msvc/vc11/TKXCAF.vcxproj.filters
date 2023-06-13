@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{02AAA201-09BF-0664-12AD-8A348D802A49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{58377F5A-1680-1624-0326-77D5304D48B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFApp">
+      <UniqueIdentifier>{E06AEC38-07E5-0200-006E-E2A916CB0838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFDimTolObjects">
+      <UniqueIdentifier>{88CEE59C-1045-0C42-0834-D89D9050748E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFNoteObjects">
+      <UniqueIdentifier>{14273501-0B0F-1688-0E8F-834F70D4487B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFDoc">
+      <UniqueIdentifier>{E283A9E3-04EF-0E90-0F3D-A1D951C25E65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFPrs">
+      <UniqueIdentifier>{C35996E2-0E2D-18AE-0C48-8FAFA5548C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XCAFView">
+      <UniqueIdentifier>{CCE35946-0605-0EED-11DD-9B0BDD2808A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFApp">
+      <UniqueIdentifier>{4F43796D-1484-141A-0667-FACC3173D6B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFDimTolObjects">
+      <UniqueIdentifier>{14FD9CD1-1580-096F-051D-646EF0AF5B12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFNoteObjects">
+      <UniqueIdentifier>{8430F2EA-0E1B-060E-16F8-1C7ED8CBA23F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFDoc">
+      <UniqueIdentifier>{08EB05A7-0C47-06D6-04A1-A921FCF6283E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFPrs">
+      <UniqueIdentifier>{CC020419-0704-07AB-08CC-8E74AD8E2F95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XCAFView">
+      <UniqueIdentifier>{D5F37CC6-16D2-0136-14B3-C14716222DA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XCAFApp\XCAFApp_Application.cxx">
+      <Filter>Source files\XCAFApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObject.cxx">
+      <Filter>Source files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObject.cxx">
+      <Filter>Source files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObject.cxx">
+      <Filter>Source files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_Tool.cxx">
+      <Filter>Source files\XCAFDimTolObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFNoteObjects\XCAFNoteObjects_NoteObject.cxx">
+      <Filter>Source files\XCAFNoteObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Area.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyGraph.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyItemId.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyItemRef.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyIterator.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Centroid.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_ClippingPlaneTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Color.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_ColorTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Datum.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_DimTol.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_DimTolTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Dimension.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_DocumentTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Editor.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_GeomTolerance.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_GraphNode.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_LayerTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_LengthUnit.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Location.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Material.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_MaterialTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Note.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteBalloon.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteBinData.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteComment.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_NotesTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_ShapeMapTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_ShapeTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_View.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_ViewTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterial.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterialTool.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFDoc\XCAFDoc_Volume.cxx">
+      <Filter>Source files\XCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs_AISObject.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs_DocumentExplorer.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs_Driver.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs_Style.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFPrs\XCAFPrs_Texture.cxx">
+      <Filter>Source files\XCAFPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XCAFView\XCAFView_Object.cxx">
+      <Filter>Source files\XCAFView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\XCAFApp\XCAFApp_Application.hxx">
+      <Filter>Header files\XCAFApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_AngularQualifier.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DataMapOfToleranceDatum.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumModifWithValue.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumModifiersSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObject.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumObjectSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumSingleModif.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DatumTargetType.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionFormVariance.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionGrade.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionModif.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionModifiersSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObject.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionObjectSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionQualifier.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_DimensionType.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceMatReqModif.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceModif.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceModifiersSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObject.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceObjectSequence.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceType.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceTypeValue.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_GeomToleranceZoneModif.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_ToleranceZoneAffectedPlane.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDimTolObjects\XCAFDimTolObjects_Tool.hxx">
+      <Filter>Header files\XCAFDimTolObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFNoteObjects\XCAFNoteObjects_NoteObject.hxx">
+      <Filter>Header files\XCAFNoteObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Area.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyGraph.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyItemId.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyItemRef.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyIterator.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_AssemblyTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Centroid.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ClippingPlaneTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Color.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ColorTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ColorType.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_DataMapOfShapeLabel.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Datum.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_DimTol.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_DimTolTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Dimension.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_DocumentTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Editor.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_GeomTolerance.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_GraphNode.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_GraphNodeSequence.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_LayerTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_LengthUnit.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Location.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Material.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_MaterialTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Note.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteBalloon.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteBinData.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_NoteComment.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_NotesTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_PartId.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ShapeMapTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ShapeTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_View.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_ViewTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterial.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterialCommon.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterialPBR.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_VisMaterialTool.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFDoc\XCAFDoc_Volume.hxx">
+      <Filter>Header files\XCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_AISObject.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DataMapIteratorOfIndexedDataMapOfShapeStyle.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DataMapOfStyleShape.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DataMapOfStyleTransient.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DocumentExplorer.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DocumentIdIterator.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_DocumentNode.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_Driver.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_IndexedDataMapOfShapeStyle.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_Style.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFPrs\XCAFPrs_Texture.hxx">
+      <Filter>Header files\XCAFPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFView\XCAFView_Object.hxx">
+      <Filter>Header files\XCAFView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XCAFView\XCAFView_ProjectionType.hxx">
+      <Filter>Header files\XCAFView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXCAF.rc" />
+  </ItemGroup>
+</Project>

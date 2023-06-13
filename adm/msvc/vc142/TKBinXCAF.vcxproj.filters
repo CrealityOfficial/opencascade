@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{166E76FA-18E2-0EFE-12F0-842BA84E47C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{4B0CFA74-13B2-02F4-0661-6D5DE22EC824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinXCAFDrivers">
+      <UniqueIdentifier>{55D7FEAD-1076-0407-1057-690FC48A1F05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinMXCAFDoc">
+      <UniqueIdentifier>{FAA57128-144A-0011-15C0-E27BBC297BC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinXCAFDrivers">
+      <UniqueIdentifier>{7DF96AE8-0435-1735-04E6-25FCFF04F819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinMXCAFDoc">
+      <UniqueIdentifier>{3C3F2AC5-04D8-0D19-0165-A7A637919B11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers.cxx">
+      <Filter>Source files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source files\BinXCAFDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_AssemblyItemRefDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_CentroidDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_ColorDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_DatumDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_DimTolDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_GraphNodeDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_LengthUnitDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_LocationDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_MaterialDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteBinDataDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteCommentDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialToolDriver.cxx">
+      <Filter>Source files\BinMXCAFDoc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers.hxx">
+      <Filter>Header files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinXCAFDrivers\BinXCAFDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header files\BinXCAFDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_AssemblyItemRefDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_CentroidDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_ColorDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_DatumDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_DimTolDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_GraphNodeDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_LengthUnitDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_LocationDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_MaterialDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteBinDataDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteCommentDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_NoteDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMXCAFDoc\BinMXCAFDoc_VisMaterialToolDriver.hxx">
+      <Filter>Header files\BinMXCAFDoc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKBinXCAF.rc" />
+  </ItemGroup>
+</Project>

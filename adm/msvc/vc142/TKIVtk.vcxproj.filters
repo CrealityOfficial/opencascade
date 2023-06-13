@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{C7AEF08A-1178-0F49-0E8E-A25C295091D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{95349ACB-1845-1041-0EE8-D5F72A56199A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IVtk">
+      <UniqueIdentifier>{AB09218E-0474-0E75-0C44-2634CB541C54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IVtkOCC">
+      <UniqueIdentifier>{0FD51EC7-11AC-0466-0F8C-80B8D6E6F93F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IVtkVTK">
+      <UniqueIdentifier>{F5A1D185-01FA-120E-10CC-C0044B59FB30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IVtkTools">
+      <UniqueIdentifier>{7A19D413-06BA-0E4F-0C41-1835B46DED32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IVtk">
+      <UniqueIdentifier>{EF856E62-0972-146B-1183-346B757B0969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IVtkOCC">
+      <UniqueIdentifier>{A7094405-0511-0544-0AE4-8A065EA8180F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IVtkVTK">
+      <UniqueIdentifier>{C3B2DFC1-0428-0296-0BAF-8B91C70FBD54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IVtkTools">
+      <UniqueIdentifier>{5714673F-1508-1538-0B44-376C68AE6094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_IShape.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_IShapeData.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_IShapeMesher.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_IShapePickerAlgo.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_IView.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtk\IVtk_Interface.cxx">
+      <Filter>Source files\IVtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkOCC\IVtkOCC_SelectableObject.cxx">
+      <Filter>Source files\IVtkOCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkOCC\IVtkOCC_Shape.cxx">
+      <Filter>Source files\IVtkOCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkOCC\IVtkOCC_ShapeMesher.cxx">
+      <Filter>Source files\IVtkOCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkOCC\IVtkOCC_ShapePickerAlgo.cxx">
+      <Filter>Source files\IVtkOCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkOCC\IVtkOCC_ViewerSelector.cxx">
+      <Filter>Source files\IVtkOCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkVTK\IVtkVTK_ShapeData.cxx">
+      <Filter>Source files\IVtkVTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkVTK\IVtkVTK_View.cxx">
+      <Filter>Source files\IVtkVTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools_DisplayModeFilter.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools_ShapeDataSource.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools_ShapeObject.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools_ShapePicker.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IVtkTools\IVtkTools_SubPolyDataFilter.cxx">
+      <Filter>Source files\IVtkTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_IShape.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_IShapeData.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_IShapeMesher.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_IShapePickerAlgo.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_IView.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_Interface.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtk\IVtk_Types.hxx">
+      <Filter>Header files\IVtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkOCC\IVtkOCC_SelectableObject.hxx">
+      <Filter>Header files\IVtkOCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkOCC\IVtkOCC_Shape.hxx">
+      <Filter>Header files\IVtkOCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkOCC\IVtkOCC_ShapeMesher.hxx">
+      <Filter>Header files\IVtkOCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkOCC\IVtkOCC_ShapePickerAlgo.hxx">
+      <Filter>Header files\IVtkOCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkOCC\IVtkOCC_ViewerSelector.hxx">
+      <Filter>Header files\IVtkOCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkVTK\IVtkVTK_ShapeData.hxx">
+      <Filter>Header files\IVtkVTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkVTK\IVtkVTK_View.hxx">
+      <Filter>Header files\IVtkVTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools_DisplayModeFilter.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools_ShapeDataSource.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools_ShapeObject.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools_ShapePicker.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IVtkTools\IVtkTools_SubPolyDataFilter.hxx">
+      <Filter>Header files\IVtkTools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKIVtk.rc" />
+  </ItemGroup>
+</Project>

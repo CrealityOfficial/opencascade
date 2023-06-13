@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5E5FBA5D-1921-0E29-0750-20547A8A4038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7E55BDB2-1089-0B53-0686-6E12ED9C9222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XmlTObjDrivers">
+      <UniqueIdentifier>{3E28C22E-1250-148B-0065-26A66B77C7B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XmlTObjDrivers">
+      <UniqueIdentifier>{D7D5BB71-086A-0BFF-17A1-31ABA8FCDA16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.cxx">
+      <Filter>Source files\XmlTObjDrivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_IntSparseArrayDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ModelDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ObjectDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_ReferenceDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlTObjDrivers\XmlTObjDrivers_XYZDriver.hxx">
+      <Filter>Header files\XmlTObjDrivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXmlTObj.rc" />
+  </ItemGroup>
+</Project>

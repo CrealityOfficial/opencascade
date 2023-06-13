@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKernel", "TKernel.vcxproj", "{B36BFD47-11BC-05DC-055D-49442519066B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKMath", "TKMath.vcxproj", "{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B36BFD47-11BC-05DC-055D-49442519066B} = {B36BFD47-11BC-05DC-055D-49442519066B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Debug|Win32.Build.0 = Debug|Win32
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Release|Win32.ActiveCfg = Release|Win32
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Release|Win32.Build.0 = Release|Win32
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Debug|x64.ActiveCfg = Debug|x64
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Debug|x64.Build.0 = Debug|x64
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Release|x64.ActiveCfg = Release|x64
+		{B36BFD47-11BC-05DC-055D-49442519066B}.Release|x64.Build.0 = Release|x64
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Debug|Win32.Build.0 = Debug|Win32
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Release|Win32.ActiveCfg = Release|Win32
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Release|Win32.Build.0 = Release|Win32
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Debug|x64.ActiveCfg = Debug|x64
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Debug|x64.Build.0 = Debug|x64
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Release|x64.ActiveCfg = Release|x64
+		{F4747F10-1623-00EC-0BEA-7E49CC1F1D77}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

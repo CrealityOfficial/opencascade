@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5416E1AA-0A05-0B96-0450-847F11B25527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{F4AB3151-09E2-1149-148D-8C913E938F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DDF">
+      <UniqueIdentifier>{9C2C7152-0E17-0C48-0D40-01072A7D8D48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DDocStd">
+      <UniqueIdentifier>{C67A6D48-0713-11A1-081C-B209397BBEAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DNaming">
+      <UniqueIdentifier>{239244C5-0D03-1818-0622-7449FCA5443D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DDataStd">
+      <UniqueIdentifier>{231A41B9-0165-0566-152D-86112FD25086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DPrsStd">
+      <UniqueIdentifier>{A4B8EB76-068E-179C-051F-979123B9CFB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DrawDim">
+      <UniqueIdentifier>{F3AFF1AA-1068-12A2-110B-D74D10046DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DDF">
+      <UniqueIdentifier>{D027AE8D-04D9-18C9-114D-F810E91E4892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DDocStd">
+      <UniqueIdentifier>{2EA75D6E-07FD-03C4-1295-6622605AE4EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DNaming">
+      <UniqueIdentifier>{6C354101-1914-01AB-11B3-59197F98EAC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DDataStd">
+      <UniqueIdentifier>{5D4B9E50-0C41-0240-0D9F-B5F96C0A3F0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DPrsStd">
+      <UniqueIdentifier>{B19CA9AA-0994-032F-12B8-B764541BCCCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DrawDim">
+      <UniqueIdentifier>{23039F6C-0E2B-0449-063F-9459D194ADC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\DDF\DDF.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_AttributeBrowser.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_BasicCommands.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_Browser.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_BrowserCommands.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_Data.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_DataCommands.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_Transaction.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDF\DDF_TransactionCommands.cxx">
+      <Filter>Source files\DDF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_ApplicationCommands.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_DocumentCommands.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_DrawDocument.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_MTMCommands.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_ShapeSchemaCommands.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDocStd\DDocStd_ToolsCommands.cxx">
+      <Filter>Source files\DDocStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_BasicCommands.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_BooleanOperationDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_BoxDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_CylinderDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_FilletDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_Line3DDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_ModelingCommands.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_PointDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_PrismDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_RevolutionDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_SelectionCommands.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_SelectionDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_SphereDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_ToolsCommands.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DNaming\DNaming_TransformationDriver.cxx">
+      <Filter>Source files\DNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_BasicCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_ConstraintCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_DatumCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_DrawDisplayCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_DrawDriver.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_DrawPresentation.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_NameCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_NamedShapeCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_ObjectCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_TreeBrowser.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DDataStd\DDataStd_TreeCommands.cxx">
+      <Filter>Source files\DDataStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DPrsStd\DPrsStd.cxx">
+      <Filter>Source files\DPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DPrsStd\DPrsStd_AISPresentationCommands.cxx">
+      <Filter>Source files\DPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DPrsStd\DPrsStd_AISViewerCommands.cxx">
+      <Filter>Source files\DPrsStd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_Angle.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_Dimension.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_Distance.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarAngle.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarDiameter.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarDimension.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarDimensionCommands.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarDistance.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_PlanarRadius.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawDim\DrawDim_Radius.cxx">
+      <Filter>Source files\DrawDim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\DDF\DDF.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_AttributeBrowser.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_Browser.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_Data.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_ListIteratorOfTransactionStack.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_Transaction.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDF\DDF_TransactionStack.hxx">
+      <Filter>Header files\DDF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDocStd\DDocStd.hxx">
+      <Filter>Header files\DDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDocStd\DDocStd_DrawDocument.hxx">
+      <Filter>Header files\DDocStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_BooleanOperationDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_BoxDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_CylinderDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_DataMapOfShapeOfName.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_FilletDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_Line3DDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_PointDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_PrismDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_RevolutionDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_SelectionDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_SphereDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\DNaming_TransformationDriver.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DNaming\ModelDefinitions.hxx">
+      <Filter>Header files\DNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDataStd\DDataStd.hxx">
+      <Filter>Header files\DDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDataStd\DDataStd_DrawDriver.hxx">
+      <Filter>Header files\DDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDataStd\DDataStd_DrawPresentation.hxx">
+      <Filter>Header files\DDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DDataStd\DDataStd_TreeBrowser.hxx">
+      <Filter>Header files\DDataStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DPrsStd\DPrsStd.hxx">
+      <Filter>Header files\DPrsStd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_Angle.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_Dimension.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_Distance.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_PlanarAngle.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_PlanarDiameter.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_PlanarDimension.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_PlanarDistance.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_PlanarRadius.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawDim\DrawDim_Radius.hxx">
+      <Filter>Header files\DrawDim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKDCAF.rc" />
+  </ItemGroup>
+</Project>
