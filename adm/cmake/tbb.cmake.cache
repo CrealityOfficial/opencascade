@@ -1,12 +1,9 @@
 # tbb
-__cc_find(TBB)
-list(APPEND THIRD_LIBS tbb)
 
 if (MSVC AND BUILD_SHARED_LIBS)
   add_definitions (-D__TBB_NO_IMPLICIT_LINKAGE)
   add_definitions (-D__TBBMALLOC_NO_IMPLICIT_LINKAGE)
 endif()
-return()
 
 if (NOT DEFINED INSTALL_TBB AND BUILD_SHARED_LIBS)
   set (INSTALL_TBB OFF CACHE BOOL "${INSTALL_TBB_DESCR}")

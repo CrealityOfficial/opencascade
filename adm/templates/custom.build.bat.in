@@ -26,21 +26,21 @@ if /I "%VCVER%" == "@COMPILER@" (
     rem multiple and single configuration builds
     set "CSF_OCCTBinPath=@CMAKE_RUNTIME_OUTPUT_DIRECTORY@"
     if ["@CMAKE_RUNTIME_OUTPUT_DIRECTORY@"] == [""] (
-      set "CSF_OCCTBinPath=@CMAKE_BINARY_DIR@/win%ARCH%/%VCVER%/bin%3"
+      set "CSF_OCCTBinPath=@OCC_BINARY@/win%ARCH%/%VCVER%/bin%3"
     )
     set "CSF_OCCTLibPath=@CMAKE_ARCHIVE_OUTPUT_DIRECTORY@"
     if ["@CMAKE_ARCHIVE_OUTPUT_DIRECTORY@"] == [""] (
-      set "CSF_OCCTLibPath=@CMAKE_BINARY_DIR@/win%ARCH%/%VCVER%/lib%3"
+      set "CSF_OCCTLibPath=@OCC_BINARY@/win%ARCH%/%VCVER%/lib%3"
     )
 
-    set "CSF_OCCTIncludePath=@CMAKE_BINARY_DIR@/inc"
-    set "CSF_OCCTResourcePath=@CMAKE_SOURCE_DIR@/src"
-    set "CSF_OCCTDataPath=@CMAKE_SOURCE_DIR@/data"
-    set "CSF_OCCTSamplesPath=@CMAKE_SOURCE_DIR@/samples"
-    set "CSF_OCCTTestsPath=@CMAKE_SOURCE_DIR@/tests"
-    set "CSF_OCCTDocPath=@CMAKE_SOURCE_DIR@/doc"
+    set "CSF_OCCTIncludePath=@OCC_BINARY@/inc"
+    set "CSF_OCCTResourcePath=@OCC_ROOT@/src"
+    set "CSF_OCCTDataPath=@OCC_ROOT@/data"
+    set "CSF_OCCTSamplesPath=@OCC_ROOT@/samples"
+    set "CSF_OCCTTestsPath=@OCC_ROOT@/tests"
+    set "CSF_OCCTDocPath=@OCC_ROOT@/doc"
 
     rem for compatibility with external application using CASROOT
-    set "CASROOT=@CMAKE_SOURCE_DIR@"
+    set "CASROOT=@OCC_ROOT@"
   ) 
 )

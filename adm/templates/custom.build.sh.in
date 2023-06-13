@@ -22,15 +22,15 @@ if [ "$1" == "@BIN_LETTER@" ]; then
 
     export CSF_OCCTBinPath="@CMAKE_RUNTIME_OUTPUT_DIRECTORY@"
     export CSF_OCCTLibPath="@CMAKE_ARCHIVE_OUTPUT_DIRECTORY@"
-    export CSF_OCCTIncludePath="@CMAKE_BINARY_DIR@/inc"
-    export CSF_OCCTResourcePath="@CMAKE_SOURCE_DIR@/src"
-    export CSF_OCCTDataPath="@CMAKE_SOURCE_DIR@/data"
-    export CSF_OCCTSamplesPath="@CMAKE_SOURCE_DIR@/samples"
-    export CSF_OCCTTestsPath="@CMAKE_SOURCE_DIR@/tests"
-    export CSF_OCCTDocPath="@CMAKE_SOURCE_DIR@/doc"
+    export CSF_OCCTIncludePath="@OCC_BINARY@/inc"
+    export CSF_OCCTResourcePath="@OCC_ROOT@/src"
+    export CSF_OCCTDataPath="@OCC_ROOT@/data"
+    export CSF_OCCTSamplesPath="@OCC_ROOT@/samples"
+    export CSF_OCCTTestsPath="@OCC_ROOT@/tests"
+    export CSF_OCCTDocPath="@OCC_ROOT@/doc"
 
     # for compatibility with external application using CASROOT
-    export CASROOT="@CMAKE_SOURCE_DIR@"
+    export CASROOT="@OCC_ROOT@"
   fi
 fi
 

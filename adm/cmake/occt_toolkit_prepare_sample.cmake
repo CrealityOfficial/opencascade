@@ -7,7 +7,7 @@ if ("${TARGET_FOLDER}" STREQUAL "")
   set (TARGET_FOLDER "Samples")
   set (TOOLKITS_NAME_SUFFIX "SAMPLES_TOOLKITS")
 
-  include_directories("${CMAKE_BINARY_DIR}/${INSTALL_DIR_INCLUDE}/${RELATIVE_DIR}")
+  include_directories("${OCC_BINARY}/${INSTALL_DIR_INCLUDE}/${RELATIVE_DIR}")
 else()
   unset (USE_QT)
   unset (RELATIVE_DIR)
