@@ -1342,3 +1342,8 @@ endforeach()
 OCCT_UPDATE_TARGET_FILE ()
 
 message (STATUS "Info: \(${CURRENT_TIME}\) OCCT configuration files prepared")
+
+
+if(CC_INSTALL_OPENCASCADE)
+	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/inc opencascade)
+endif()
