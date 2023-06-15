@@ -24,7 +24,7 @@
 #include <TColStd_Array1OfReal.hxx>
 
 #ifdef OCCT_DEBUG
-static void DEBUG(const AppParCurves_MultiCurve& MC) {
+static void DEBUG_func(const AppParCurves_MultiCurve& MC) {
   Standard_Integer i, j;
   Standard_Integer nbcu = MC.NbCurves();
   Standard_Integer nbpoles = MC.NbPoles();
@@ -227,7 +227,7 @@ void Approx_MCurvesToBSpCurve::Perform
     mySpline = AppParCurves_MultiBSpCurve(tabMU, TheKnots, TheMults);
   }
 #ifdef OCCT_DEBUG
-if(debug) DEBUG(mySpline);
+if(debug) DEBUG_func(mySpline);
 #endif
 
   myDone = Standard_True;
