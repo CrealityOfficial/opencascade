@@ -103,6 +103,8 @@ set (SINGLE_GENERATOR OFF)
 if (DEFINED CMAKE_BUILD_TYPE)
   set (SINGLE_GENERATOR ON)
 endif()
+message(CMAKE_BUILD_TYPE)
+
 
 # a single-configuration generator like the Makefile generator defines CMAKE_BUILD_TYPE variable
 # check this variable and set if it's required
@@ -118,7 +120,7 @@ if (((SINGLE_GENERATOR AND "${CMAKE_BUILD_TYPE}" STREQUAL "Debug") OR NOT SINGLE
 else()
   OCCT_CHECK_AND_UNSET (BUILD_WITH_DEBUG)
 endif()
-
+set (BUILD_WITH_DEBUG ON)
 if (BUILD_WITH_DEBUG)
   set_property(DIRECTORY APPEND PROPERTY COMPILE_DEFINITIONS $<$<CONFIG:DEBUG>:OCCT_DEBUG>)
 endif()
@@ -246,26 +248,26 @@ endif()
 #set (CMAKE_INSTALL_PREFIX "${INSTALL_DIR}" CACHE INTERNAL "" FORCE)
 #
 #set (BIN_LETTER "")
-#if ("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
-#  set (BIN_LETTER "d")
-#elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
-#  set (BIN_LETTER "i")
-#endif()
-#
-## Get all used variables: OS_WITH_BIT, COMPILER
-#OCCT_MAKE_OS_WITH_BITNESS()
-#OCCT_MAKE_COMPILER_SHORT_NAME()
-#
-## do not define INSTALL_DIR_BIN for win.
-## Leave library structure for win: <prefix>/win64/vc10/bin(d)
-#if (NOT DEFINED INSTALL_DIR_BIN)
-#  if ("${INSTALL_DIR_LAYOUT}" STREQUAL "Unix")
-#    set (INSTALL_DIR_BIN "bin" CACHE PATH "${INSTALL_DIR_BIN_DESCR}")
-#  else()
-#    set (INSTALL_DIR_BIN "${OS_WITH_BIT}/${COMPILER}/bin" CACHE PATH "${INSTALL_DIR_BIN_DESCR}")
-#  endif()
-#endif()
-#
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Debug")
+  set (BIN_LETTER "d")
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
+  set (BIN_LETTER "i")
+endif()
+
+# Get all used variables: OS_WITH_BIT, COMPILER
+OCCT_MAKE_OS_WITH_BITNESS()
+OCCT_MAKE_COMPILER_SHORT_NAME()
+
+# do not define INSTALL_DIR_BIN for win.
+# Leave library structure for win: <prefix>/win64/vc10/bin(d)
+if (NOT DEFINED INSTALL_DIR_BIN)
+  if ("${INSTALL_DIR_LAYOUT}" STREQUAL "Unix")
+    set (INSTALL_DIR_BIN "bin" CACHE PATH "${INSTALL_DIR_BIN_DESCR}")
+  else()
+    set (INSTALL_DIR_BIN "${OS_WITH_BIT}/${COMPILER}/bin" CACHE PATH "${INSTALL_DIR_BIN_DESCR}")
+  endif()
+endif()
+
 ## define folder containing all shell/batch scripts
 #if (NOT DEFINED INSTALL_DIR_SCRIPT)
 #  if ("${INSTALL_DIR_LAYOUT}" STREQUAL "Unix")
@@ -926,12 +928,17 @@ endif()
 #set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/libd")
 #set (CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bind")
 #set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/libd")
-
-#if (WIN32)
-#  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE        "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bin")
-#  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELWITHDEBINFO "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bini")
-#  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG          "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bind")
-#endif()
+message(${OCC_BINARY})
+message(${OS_WITH_BIT})
+message(${COMPILER})
+if (WIN32)
+  #set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE        "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bin")
+  #set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELWITHDEBINFO "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bini")
+  #set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG          "${OCC_BINARY}/${OS_WITH_BIT}/${COMPILER}/bind")
+  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE        "${OCC_BINARY}/../bin")
+  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_RELWITHDEBINFO "${OCC_BINARY}/../bini")
+  set (CMAKE_LIBRARY_OUTPUT_DIRECTORY_DEBUG          "${OCC_BINARY}/../bind")
+endif()
 
 string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
 message (STATUS "\nInfo: \(${CURRENT_TIME}\) Start collecting all OCCT header files into ${OCC_BINARY}/inc ...")
@@ -1305,6 +1312,7 @@ export(PACKAGE OpenCASCADE)
 if (CMAKE_BUILD_TYPE)
   set (SET_OpenCASCADE_BUILD_TYPE "set (OpenCASCADE_BUILD_TYPE        \"${CMAKE_BUILD_TYPE}\")")
 endif()
+message(CMAKE_BUILD_TYPE)
 
 if (BUILD_SHARED_LIBS)
   set (SET_OpenCASCADE_LINKER_FLAGS "set (OpenCASCADE_LINKER_FLAGS   \"${CMAKE_SHARED_LINKER_FLAGS}\")")
@@ -1343,5 +1351,5 @@ OCCT_UPDATE_TARGET_FILE ()
 
 message (STATUS "Info: \(${CURRENT_TIME}\) OCCT configuration files prepared")
 if(CC_INSTALL_OPENCASCADE)
-	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/inc opencascade)
+	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/ opencascade)
 endif()
