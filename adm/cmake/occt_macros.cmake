@@ -331,13 +331,16 @@ macro (COLLECT_AND_INSTALL_OCCT_HEADER_FILES ROOT_TARGET_OCCT_DIR OCCT_BUILD_TOO
   # create new file including found header
   string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
   message (STATUS "Info: \(${CURRENT_TIME}\) Create header-links in inc folder...")
-
+  #message(${OCCT_HEADER_FILES_COMPLETE})
+  
+  message(${ROOT_TARGET_OCCT_DIR})
+  message(${OCCT_INSTALL_DIR_PREFIX})
   foreach (OCCT_HEADER_FILE ${OCCT_HEADER_FILES_COMPLETE})
     get_filename_component (HEADER_FILE_NAME ${OCCT_HEADER_FILE} NAME)
     set (OCCT_HEADER_FILE_CONTENT "#include \"${OCCT_HEADER_FILE}\"")
-    configure_file ("${TEMPLATE_HEADER_PATH}" "${ROOT_TARGET_OCCT_DIR}/${OCCT_INSTALL_DIR_PREFIX}/${HEADER_FILE_NAME}" @ONLY)
+    configure_file (${OCCT_HEADER_FILE} "${ROOT_TARGET_OCCT_DIR}/${OCCT_INSTALL_DIR_PREFIX}/${HEADER_FILE_NAME}" COPYONLY)
   endforeach()
-  
+
   install (FILES ${OCCT_HEADER_FILES_COMPLETE} DESTINATION "${INSTALL_DIR}/${OCCT_INSTALL_DIR_PREFIX}")
   
   string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
