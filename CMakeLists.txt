@@ -832,7 +832,7 @@ endif()
 string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
 message (STATUS "\nInfo: \(${CURRENT_TIME}\) Start collecting all OCCT header files into ${OCC_BINARY}/inc ...")
 # collect all the headers to <binary dir>/inc folder
-COLLECT_AND_INSTALL_OCCT_HEADER_FILES ("${OCC_BINARY}" "${BUILD_TOOLKITS}" "${OCC_ROOT}/src")
+COLLECT_AND_INSTALL_OCCT_HEADER_FILES ("${OCC_BINARY}" "${BUILD_TOOLKITS}" "${OCC_ROOT}/src" "${INSTALL_DIR_INCLUDE}")
 string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
 message (STATUS "Info: \(${CURRENT_TIME}\) End the collecting")
 list (FIND BUILD_TOOLKITS DRAWEXE DRAWEXE_INDEX)
