@@ -35,7 +35,7 @@ endmacro()
 OCCT_INCLUDE_CMAKE_FILE ("adm/cmake/vardescr")
 # set type of OCCT libraries
 if (NOT BUILD_LIBRARY_TYPE)
-  set (BUILD_LIBRARY_TYPE "Shared" CACHE STRING "${BUILD_LIBRARY_TYPE_DESCR}" FORCE)
+  set (BUILD_LIBRARY_TYPE "Static" CACHE STRING "${BUILD_LIBRARY_TYPE_DESCR}" FORCE)
   SET_PROPERTY(CACHE BUILD_LIBRARY_TYPE PROPERTY STRINGS Shared Static)
 endif()
 if ("${BUILD_LIBRARY_TYPE}" STREQUAL "Shared")
@@ -48,7 +48,6 @@ else()
   unset (BUILD_SHARED_LIBRARY_NAME_POSTFIX)
 endif()
 
-unset (BUILD_SHARED_LIBS)
 # the name of the project
 project (OCCT)
 if (WIN32)
@@ -607,7 +606,7 @@ message(${COMPILER})
 string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
 message (STATUS "\nInfo: \(${CURRENT_TIME}\) Start collecting all OCCT header files into ${OCC_BINARY}/inc ...")
 # collect all the headers to <binary dir>/inc folder
-#COLLECT_AND_INSTALL_OCCT_HEADER_FILES ("${OCC_BINARY}" "${BUILD_TOOLKITS}" "${OCC_ROOT}/src" "${INSTALL_DIR_INCLUDE}")
+#COLLECT_AND_INSTALL_OCCT_HEADER_FILES ("${OCC_BINARY}" "${BUILD_TOOLKITS}" "${OCC_ROOT}/src" "inc")
 string(TIMESTAMP CURRENT_TIME "%H:%M:%S")
 message (STATUS "Info: \(${CURRENT_TIME}\) End the collecting")
 list (FIND BUILD_TOOLKITS DRAWEXE DRAWEXE_INDEX)
@@ -729,6 +728,9 @@ foreach (OCCT_TOOLKIT ${BUILD_TOOLKITS})
     endif()
   endif()
 endforeach()
+
+message(STATUS "occ build toolkits ${BUILD_TOOLKITS}")
+
 list (REMOVE_DUPLICATES OCCT_MODULES_ENABLED)
 list (REMOVE_DUPLICATES OCCT_COMPILE_DEFINITIONS)
 # these macros are defined for specific tookits, not globalwise
