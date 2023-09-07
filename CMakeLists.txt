@@ -47,6 +47,8 @@ else()
   unset (BUILD_SHARED_LIBS)
   unset (BUILD_SHARED_LIBRARY_NAME_POSTFIX)
 endif()
+
+unset (BUILD_SHARED_LIBS)
 # the name of the project
 project (OCCT)
 if (WIN32)
