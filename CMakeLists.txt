@@ -794,6 +794,6 @@ write_basic_package_version_file( ${OCC_BINARY}/OpenCASCADEConfigVersion.cmake
 OCCT_UPDATE_TARGET_FILE ()
 
 message (STATUS "Info: \(${CURRENT_TIME}\) OCCT configuration files prepared")
-if(CC_INSTALL_OPENCASCADE)
+if(CC_INSTALL_OPENCASCADE_STATIC)
 	__install_directory_specif(${CMAKE_CURRENT_SOURCE_DIR}/inc/ opencascade)
 endif()
